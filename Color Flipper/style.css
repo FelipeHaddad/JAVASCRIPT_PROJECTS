@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     background-color: white;
 }
@@ -9,13 +15,23 @@ body {
   font-style: normal;
 }
 
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: azure;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .title {
-    font-size: x-large;
+    font-size: xx-large;
     font-family: 'Montserrat', sans-serif;
 }
 
 button {
-    background-color: transparent;
+    background-color: white;
     border-radius: 5px;
     font-size: x-large;
     font-weight: 900;
